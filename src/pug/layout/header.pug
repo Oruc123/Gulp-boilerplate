@@ -1,0 +1,76 @@
+
+head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Primus.az
+
+    link(rel="shortcut icon", href="img/fav16.png", type="image/png",sizes="16x16")
+    link(rel="shortcut icon", href="img/fav32.png", type="image/png",sizes="32x32")
+    link(rel="shortcut icon", href="img/fav48.png", type="image/png",sizes="48x48")
+    link(rel="shortcut icon", href="img/fav96.png", type="image/png",sizes="96x96")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Lora:700i|Roboto+Condensed:400,700&display=swap&text=%21%22%23%24%25%26%27%28%29%30+,-./0123456789:;%3C=%3E%3F@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`%E2%82%AC„‘’“”™©®°µ±÷abcdefghijklmnopqrstuvwxyz{|}~%C3%9C%C3%96%C4%9E%C4%B0%C6%8F%C3%87%C5%9E%C3%BC%C3%B6%C4%9F%C4%B1%C9%99%C3%A7%C5%9F")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",crossorigin="anonymous")
+    link(rel="stylesheet", href="css/all.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css")
+    link(rel="stylesheet", href="css/main.css")
+    script(src="https://code.jquery.com/jquery-3.4.1.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js")
+    script(src="/js/main.js")
+body.animated 
+    .spinner.position-fixed.h-100.w-100.bg-white
+        .container.h-100.w-100
+            .row.h-100.w-100.justify-content-center
+                .col.align-self-center.text-center.animated.slideInDown
+                    img(src="img/spinner.svg", alt="Spinner").mx-auto
+                    h4
+                        strong Gozleyin...
+
+    hedader
+        .hide_nav.animated.py-3.px-3
+            .text-right.mb-5
+                span.close: <i class="fas fa-times"></i>
+            .inner.mb-3
+            .soc_h
+
+        .top.py-2.border-bottom.d-none.d-sm-block
+            .container
+                .row
+                    .col-sm-6.text-left.align-self-center
+                        a(href="tel:+994553272727").my_link.mr-4 <i class="fas fa-phone-alt"></i>  99455 327 27 27
+                        a(href="mailto:info@primus.az").my_link <i class="fas fa-envelope"></i>  info@primus.az
+                    .col-sm-6.text-right.scocial.align-self-center
+                        a(href="http://").my_link.mr-1 <i class="fab fa-facebook-f"></i>
+                        a(href="http://").my_link.mr-1 <i class="fab fa-twitter"></i>
+                        a(href="http://").my_link <i class="fab fa-instagram"></i>
+
+                        a(href="/az/").my_link.lang.ml-3.mr-2 AZ
+                        a(href="/en/").my_link.lang EN
+
+        .header_main
+            .container.my-4
+                .row
+                    .col-6.col-md-12.col-lg-2.col-xl-3.logo.text-center.text-lg-left
+                        a(href="/"): img(src="/img/primus_logo.png", alt="", srcset="")
+
+
+                    .col-6.col-md-12.col-lg-10.col-xl-9.align-self-end
+                        nav.pt-2.text-center.d-none.d-md-block.text-lg-right
+                            a(href="/").my_link.mr-3.selected Home
+                            a(href="xidmetler.html").my_link.mr-3 Xidmətlər
+                            a(href="team.html").my_link.mr-3 Heyətimiz
+                            a(href="partnyorlar.html").my_link.mr-3 Partnyorlar
+                            a(href="about.html").my_link.mr-3 Haqqımızda
+                            a(href="blog.html").my_link.mr-3 Bloq
+                            a(href="qanun.html").my_link.mr-3 Qanunvericilik
+                            a(href="contact.html").my_link  Əlaqə
+                        .text-right.d-block.d-md-none.burg_cont
+                            span.burger  <i class="fas fa-bars"></i>
+                            .dark_c Menyu
+
+                    
+                   
+                    
+                    
+
+    
